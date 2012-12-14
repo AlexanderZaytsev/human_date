@@ -1,7 +1,7 @@
 require 'human_date/view_helpers'
 
 
-module HumanTime
+module HumanDate
   class Railtie < Rails::Railtie
 
     initializer 'rails-i18n' do |app|

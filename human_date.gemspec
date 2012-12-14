@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "human_date"
   gem.require_paths = ["lib"]
-  gem.version       = HumanTime::VERSION
+  gem.version       = HumanDate::VERSION
 
   gem.add_development_dependency "activesupport"
   gem.add_development_dependency "actionpack"
