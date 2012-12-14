@@ -1,0 +1,17 @@
+en:
+  date:
+    formats:
+      today: "Today"
+      current_year: "%h %e"
+      other_year: "%h %e, %Y"
+
+  time:
+    pm: 'PM'
+    am: 'AM'
+    formats:
+      today: "%l:%M %p"
+
+  comments:
+    time:
+      formats:
+        today:  "%H:%M"

@@ -1,0 +1,4 @@
+ru:
+  time:
+    formats:
+      today: "%H:%M:%S"
