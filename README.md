@@ -22,7 +22,7 @@ human_time(time - 1.day) # Yesterday
 
 `human_date` provides you with 5 states for your Time/Date objects:
 
-- `today` displays time only: `5:20 pm`
+- `today` displays `Today` for Date and time for Time (`5:20 pm`)
 
 - `tomorrow` displays: `Tomorrow`
 
@@ -142,7 +142,7 @@ en:
       tomorrow: "Tomorrow"
       yesterday: "Yesterday"
       current_year: "%h %e"
-      previous_years: "%h %e, %Y"
+      other_year: "%h %e, %Y"
 
 ```
 
