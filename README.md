@@ -32,7 +32,7 @@ human_time(time - 1.day) # Yesterday
 
 - `other_year` displays the month, the day and the year: `Aug 28, 2011`
 
-The default values can be overwriten in the locale file. See the I18n section for details.
+The default values can be overwritten in the locale file. See the I18n section for details.
 
 ## Installation
 
