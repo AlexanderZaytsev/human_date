@@ -6,10 +6,10 @@
 date = Date.current # 2012-08-28
 
 human_date(date) # Today
-human_date(time + 1.day) # Tomorrow
-human_date(time - 1.day) # Yesterday
-human_date(time - 2.days) # Aug 26
-human_date(time - 1.year) # Aug 28, 2011
+human_date(date + 1.day) # Tomorrow
+human_date(date - 1.day) # Yesterday
+human_date(date - 2.days) # Aug 26
+human_date(date - 1.year) # Aug 28, 2011
 
 # it works with times, too
 
@@ -50,9 +50,9 @@ Or install it yourself as:
 
 ## Usage
 
-- `human_date` for human dates
+- `human_date` for dates
 
-- `human_time` for human times
+- `human_time` for times
 
 - `human_time_tag` generates HTML5 `<time>` tag
 
