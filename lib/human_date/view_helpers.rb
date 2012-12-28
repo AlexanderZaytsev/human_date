@@ -1,7 +1,7 @@
-include ActionView::Helpers::TagHelper
-
 module HumanDate
   module ViewHelpers
+    include ActionView::Helpers::TagHelper
+
     def human_date(object, namespace = nil)
       I18n.localize(object, format: format_for_object(object, namespace)).strip
     end
