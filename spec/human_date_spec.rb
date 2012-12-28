@@ -1,10 +1,8 @@
 # encoding: UTF-8
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-include HumanDate::ViewHelpers
-
-
 describe HumanDate::ViewHelpers do
+  include HumanDate::ViewHelpers
 
   before do
     Timecop.freeze Time.parse('2012-08-28 17:20:54 +01:00').in_time_zone
